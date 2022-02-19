@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{64926553-AA54-4A34-8578-58D9D16C19AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>dentis</RootNamespace>
+    <AssemblyName>DCMS</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\علي\Desktop\dentis\dentis\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>66955EF7175FF2C2A8990B0BB25EBC3D9CB69388</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>dentis_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>brushing_teeth_tooth_toothbrush_icon_131293.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\Downloads\Compressed\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL1\Class1.cs" />
+    <Compile Include="DAL1\DataAccessLayer.cs" />
+    <Compile Include="FORMS1\doctor_notes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\doctor_notes.Designer.cs">
+      <DependentUpon>doctor_notes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\Forme_bills1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\Forme_bills1.Designer.cs">
+      <DependentUpon>Forme_bills1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\Form_HOME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\Form_HOME.Designer.cs">
+      <DependentUpon>Form_HOME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\Form_LOGINcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\Form_LOGINcs.Designer.cs">
+      <DependentUpon>Form_LOGINcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\Form_new_pateint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\Form_new_pateint.Designer.cs">
+      <DependentUpon>Form_new_pateint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\Form_manegmet_patient .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\Form_manegmet_patient .Designer.cs">
+      <DependentUpon>Form_manegmet_patient .cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\Form_image_pat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\Form_image_pat.Designer.cs">
+      <DependentUpon>Form_image_pat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\Form_new_state%40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\Form_new_state%40.Designer.cs">
+      <DependentUpon>Form_new_state%40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\Form_manegnent_state%40cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\Form_manegnent_state%40cs.Designer.cs">
+      <DependentUpon>Form_manegnent_state%40cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\Form_image_state%40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\Form_image_state%40.Designer.cs">
+      <DependentUpon>Form_image_state%40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\form_choos_pat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\form_choos_pat.Designer.cs">
+      <DependentUpon>form_choos_pat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\form_choos_state.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\form_choos_state.Designer.cs">
+      <DependentUpon>form_choos_state.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\Form_order_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\Form_order_list.Designer.cs">
+      <DependentUpon>Form_order_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\form_fin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\form_fin.Designer.cs">
+      <DependentUpon>form_fin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\form_datil_order1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\form_datil_order1.Designer.cs">
+      <DependentUpon>form_datil_order1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\Form_server_config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\Form_server_config.Designer.cs">
+      <DependentUpon>Form_server_config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\form_updat_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\form_updat_user.Designer.cs">
+      <DependentUpon>form_updat_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\form_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\form_user.Designer.cs">
+      <DependentUpon>form_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\image_sss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\image_sss.Designer.cs">
+      <DependentUpon>image_sss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\image_study.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\image_study.Designer.cs">
+      <DependentUpon>image_study.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS1\picteres_pat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\picteres_pat.Designer.cs">
+      <DependentUpon>picteres_pat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL1\class_syudy.cs" />
+    <Compile Include="RPT\CrystalReport_all_petint.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport_all_petint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\CrystalReport_all_state.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport_all_state.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\CrystalReport_orders.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport_orders.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\CrystalReport_single_pateint.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport_single_pateint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\CrystalReport_single_states.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport_single_states.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\Form_RPT_State.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPT\Form_RPT_State.Designer.cs">
+      <DependentUpon>Form_RPT_State.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPT\Form_RPT_Pateint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPT\Form_RPT_Pateint.Designer.cs">
+      <DependentUpon>Form_RPT_Pateint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL1\class_bills.cs" />
+    <Compile Include="PL1\Class_login.cs" />
+    <Compile Include="PL1\Class_patient.cs" />
+    <Compile Include="PL1\Class_state.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FORMS1\study.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS1\study.Designer.cs">
+      <DependentUpon>study.cs</DependentUpon>
+    </Compile>
+    <Compile Include="send_pateint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="send_pateint.Designer.cs">
+      <DependentUpon>send_pateint.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FORMS1\doctor_notes.resx">
+      <DependentUpon>doctor_notes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\Forme_bills1.resx">
+      <DependentUpon>Forme_bills1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\Form_HOME.resx">
+      <DependentUpon>Form_HOME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\Form_LOGINcs.resx">
+      <DependentUpon>Form_LOGINcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\Form_new_pateint.resx">
+      <DependentUpon>Form_new_pateint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\Form_manegmet_patient .resx">
+      <DependentUpon>Form_manegmet_patient .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\Form_image_pat.resx">
+      <DependentUpon>Form_image_pat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\Form_new_state%40.resx">
+      <DependentUpon>Form_new_state%40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\Form_manegnent_state%40cs.resx">
+      <DependentUpon>Form_manegnent_state%40cs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\Form_image_state%40.resx">
+      <DependentUpon>Form_image_state%40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\form_choos_pat.resx">
+      <DependentUpon>form_choos_pat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\form_choos_state.resx">
+      <DependentUpon>form_choos_state.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\Form_order_list.resx">
+      <DependentUpon>Form_order_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\form_fin.resx">
+      <DependentUpon>form_fin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\form_datil_order1.resx">
+      <DependentUpon>form_datil_order1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\Form_server_config.resx">
+      <DependentUpon>Form_server_config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\form_updat_user.resx">
+      <DependentUpon>form_updat_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\form_user.resx">
+      <DependentUpon>form_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\image_sss.resx">
+      <DependentUpon>image_sss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\image_study.resx">
+      <DependentUpon>image_study.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\picteres_pat.resx">
+      <DependentUpon>picteres_pat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RPT\CrystalReport_all_petint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport_all_petint.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\CrystalReport_all_state.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport_all_state.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\CrystalReport_orders.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport_orders.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\CrystalReport_single_pateint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport_single_pateint.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\CrystalReport_single_states.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport_single_states.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\Form_RPT_Pateint.resx">
+      <DependentUpon>Form_RPT_Pateint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\Form_RPT_State.resx">
+      <DependentUpon>Form_RPT_State.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS1\study.resx">
+      <DependentUpon>study.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="send_pateint.resx">
+      <DependentUpon>send_pateint.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="dentis_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="brushing_teeth_tooth_toothbrush_icon_131293.ico" />
+    <Content Include="IMAGES\-.png" />
+    <Content Include="IMAGES\007_remove_trash-512.png" />
+    <Content Include="IMAGES\009_030_cam_camera_video_record-512.png" />
+    <Content Include="IMAGES\013_070_password_protected_protection_encryption_locked_secure_security-256.png" />
+    <Content Include="IMAGES\01_maximize-expand-256.png" />
+    <Content Include="IMAGES\022_053_access_password_key_secure-256.png" />
+    <Content Include="IMAGES\051_user_profile_avatar-256.png" />
+    <Content Include="IMAGES\055_add_new_user-512.png" />
+    <Content Include="IMAGES\1-256.png" />
+    <Content Include="IMAGES\13-512.png" />
+    <Content Include="IMAGES\14-512.png" />
+    <Content Include="IMAGES\19119614-cute-tooth-cartoon-presenting.jpg" />
+    <Content Include="IMAGES\27-512.png" />
+    <Content Include="IMAGES\29-512.png" />
+    <Content Include="IMAGES\32-256.png" />
+    <Content Include="IMAGES\32-25655.png" />
+    <Content Include="IMAGES\331-256.png" />
+    <Content Include="IMAGES\420-512.png" />
+    <Content Include="IMAGES\4437a-1024x683.gif" />
+    <Content Include="IMAGES\48-512.png" />
+    <Content Include="IMAGES\49476631-dentist-office-illustration-dentist-doctor-and-patient-with-toothache-vector-dental-care-tooth-care-.jpg" />
+    <Content Include="IMAGES\50264288-tooth-cartoon-mascot-brushing-teeth.jpg" />
+    <Content Include="IMAGES\5420686-539182681.jpg" />
+    <Content Include="IMAGES\574_-_Sharing-512.png" />
+    <Content Include="IMAGES\614379-list-512.png" />
+    <Content Include="IMAGES\69882593-치과-사무실-치과-의사와-환자-소녀입니다-평면-디자인의-벡터-일러스트.jpg" />
+    <Content Include="IMAGES\698902-icon-21-eye-hidden-512.png" />
+    <Content Include="IMAGES\698903-icon-22-eye-512.png" />
+    <Content Include="IMAGES\79-512.png" />
+    <Content Include="IMAGES\a90c8e73fb2ed79436ef60901cc0e86d.jpg" />
+    <Content Include="IMAGES\access_files_folder_checkmark-256.png" />
+    <Content Include="IMAGES\add1-512.png" />
+    <None Include="IMAGES\b.jpg" />
+    <Content Include="IMAGES\blue-area-symbol-brand-facebook.jpg" />
+    <Content Include="IMAGES\chart-info-data-analysis-analytics-stats-market-512.png" />
+    <Content Include="IMAGES\computer-infrastructure-management-internet-of-things-system-connection-512.png" />
+    <Content Include="IMAGES\Consultant_Male-512.png" />
+    <Content Include="IMAGES\CONTENT_MANAGEMENT-512.png" />
+    <Content Include="IMAGES\d4fc4d38cb877df2d79be00a7a1fa24c.jpg" />
+    <Content Include="IMAGES\dental-11-512.png" />
+    <Content Include="IMAGES\dental-14-512.png" />
+    <Content Include="IMAGES\dental-33-512.png" />
+    <Content Include="IMAGES\dental-34-512.png" />
+    <Content Include="IMAGES\dental-46-512.png" />
+    <Content Include="IMAGES\dental-care-medical-healthcare-512.png" />
+    <Content Include="IMAGES\dental-checkup-medical-healthcare-512.png" />
+    <Content Include="IMAGES\Dentist%402x.png" />
+    <Content Include="IMAGES\dentist-cleaning-big-tooth-background_23-2148114857.jpg" />
+    <Content Include="IMAGES\dentist-doctor-hospital-cabinet-medical-patient-services-flat-design-vector-illustration-dentist-doctor-hospital-cabinet-medical-99215929.jpg" />
+    <Content Include="IMAGES\dentist_dental_checkup-256.png" />
+    <Content Include="IMAGES\Dentist_Male-256.png" />
+    <Content Include="IMAGES\depositphotos_112438924-stock-illustration-dental-office-dentist-and-patient.jpg" />
+    <Content Include="IMAGES\depositphotos_124786160-stock-illustration-simple-dental-office.jpg" />
+    <Content Include="IMAGES\doctor and petint.jpg" />
+    <Content Include="IMAGES\doctor.png" />
+    <Content Include="IMAGES\doctor1.jpg" />
+    <Content Include="IMAGES\doutor-dentista-examinando-paciente_42515-317.jpg" />
+    <Content Include="IMAGES\Ecommerce_Set-30-512.png" />
+    <Content Include="IMAGES\Ecommerce_Set-48-512.png" />
+    <Content Include="IMAGES\eye-512.png" />
+    <Content Include="IMAGES\gg.png" />
+    <Content Include="IMAGES\ggg.png" />
+    <Content Include="IMAGES\h.jpg" />
+    <Content Include="IMAGES\h.png" />
+    <Content Include="IMAGES\Hide-512.png" />
+    <Content Include="IMAGES\icon-157-512.png" />
+    <Content Include="IMAGES\images.jpg" />
+    <Content Include="IMAGES\images.png" />
+    <Content Include="IMAGES\imageso.jpg" />
+    <Content Include="IMAGES\imagesتت.jpg" />
+    <Content Include="IMAGES\imagesف.jpg" />
+    <Content Include="IMAGES\Key-256.png" />
+    <Content Include="IMAGES\kisspng-physician-vector-graphics-portable-network-graphic-cartoon-physician-illustration-happy-transprent-pn-5d14463ae41845.1789314515616097869343.jpg" />
+    <Content Include="IMAGES\maximize-256.png" />
+    <Content Include="IMAGES\misc_printer-512.png" />
+    <Content Include="IMAGES\money-512.png" />
+    <Content Include="IMAGES\On_power_start_-512.png" />
+    <Content Include="IMAGES\order-ecommerce-payment-bill-512.png" />
+    <Content Include="IMAGES\outline_name_tag-256.png" />
+    <Content Include="IMAGES\patient-hospital-injured-sick-512.png" />
+    <Content Include="IMAGES\PDF_File-Add_2-512.png" />
+    <Content Include="IMAGES\photo-1024x683.png" />
+    <Content Include="IMAGES\pngtree-dentist-png-image_3633924.jpg" />
+    <Content Include="IMAGES\sqi2016-flat-go-14-512.png" />
+    <Content Include="IMAGES\stock-vector-dental-office-children-s-dentist-and-patient-vector-illustration-of-a-flat-design-432932743.jpg" />
+    <Content Include="IMAGES\The_dentist%402x.png" />
+    <Content Include="IMAGES\Tooth_2-512.png" />
+    <Content Include="IMAGES\tooth_dentist_dental_cleaning_-256.png" />
+    <Content Include="IMAGES\tooth_dentist_dental_smacky_-256.png" />
+    <Content Include="IMAGES\tooth_dentist_dental_stylish_-256.png" />
+    <Content Include="IMAGES\user-01-256.png" />
+    <Content Include="IMAGES\uturn__direction_signtransport-512.png" />
+    <Content Include="IMAGES\WhatsApp-Image-2020-02-05-at-11.48.39-PM-780x405.jpeg" />
+    <Content Include="IMAGES\x-11-512.png" />
+    <Content Include="IMAGES\_Business_Card-512.png" />
+    <Content Include="IMAGES\_List-512.png" />
+    <Content Include="IMAGES\_List_Button-512.png" />
+    <Content Include="IMAGES\_Recruitment-512.png" />
+    <Content Include="IMAGES\__shield_keyhold_access_protection-256.png" />
+    <Content Include="IMAGES\تعبير-عن-الطبيب.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

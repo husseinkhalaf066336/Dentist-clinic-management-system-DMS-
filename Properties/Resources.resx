@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="doctor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\doctor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="money-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\money-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="27-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\27-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_Recruitment-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\_Recruitment-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="order-ecommerce-payment-bill-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\order-ecommerce-payment-bill-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="On_power_start_-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\On_power_start_-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\13-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="27-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\27-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="051_user_profile_avatar-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\051_user_profile_avatar-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="614379-list-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\614379-list-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dental-46-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\dental-46-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="patient-hospital-injured-sick-5122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\patient-hospital-injured-sick-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="79-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\79-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="access_files_folder_checkmark-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\access_files_folder_checkmark-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-157-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\icon-157-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dental-14-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\dental-14-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19119614-cute-tooth-cartoon-presenting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\19119614-cute-tooth-cartoon-presenting.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Consultant_Male-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\Consultant_Male-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dentist-cleaning-big-tooth-background_23-2148114857" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\dentist-cleaning-big-tooth-background_23-2148114857.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dental-11-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\dental-11-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_Business_Card-5122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\_Business_Card-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="331-2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\331-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add1-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\add1-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp-Image-2020-02-05-at-11.48.39-PM-780x405" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\WhatsApp-Image-2020-02-05-at-11.48.39-PM-780x405.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dental-34-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\dental-34-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="h1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\h.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="access_files_folder_checkmark-2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\access_files_folder_checkmark-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="420-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\420-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="computer-infrastructure-management-internet-of-things-system-connection-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\computer-infrastructure-management-internet-of-things-system-connection-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_Business_Card-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\_Business_Card-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="patient-hospital-injured-sick-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\patient-hospital-injured-sick-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="patient-hospital-injured-sick-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\patient-hospital-injured-sick-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dental-33-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\dental-33-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dentist-doctor-hospital-cabinet-medical-patient-services-flat-design-vector-illustration-dentist-doctor-hospital-cabinet-medical-99215929" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\dentist-doctor-hospital-cabinet-medical-patient-services-flat-design-vector-illustration-dentist-doctor-hospital-cabinet-medical-99215929.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maximize-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\maximize-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chart-info-data-analysis-analytics-stats-market-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\chart-info-data-analysis-analytics-stats-market-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doctor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\doctor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dental-care-medical-healthcare-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\dental-care-medical-healthcare-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dental-11-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\dental-11-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="29-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\29-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecommerce_Set-30-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\Ecommerce_Set-30-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uturn__direction_signtransport-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\uturn__direction_signtransport-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="50264288-tooth-cartoon-mascot-brushing-teeth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\50264288-tooth-cartoon-mascot-brushing-teeth.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chart-info-data-analysis-analytics-stats-market-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\chart-info-data-analysis-analytics-stats-market-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uturn__direction_signtransport-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\uturn__direction_signtransport-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uturn__direction_signtransport-5123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\uturn__direction_signtransport-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dental-11-5122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\dental-11-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doctor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\doctor1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\14-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_124786160-stock-illustration-simple-dental-office" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\depositphotos_124786160-stock-illustration-simple-dental-office.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add1-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\add1-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\h.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDF_File-Add_2-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\PDF_File-Add_2-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="055_add_new_user-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\055_add_new_user-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="698903-icon-22-eye-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\698903-icon-22-eye-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5420686-539182681" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\5420686-539182681.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maximize-2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\maximize-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="007_remove_trash-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\007_remove_trash-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="h2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\h.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="On_power_start_-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\On_power_start_-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tooth_2-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\Tooth_2-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="misc_printer-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\misc_printer-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="331-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\331-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecommerce_Set-48-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\Ecommerce_Set-48-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doctor and petint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\doctor and petint.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="تعبير-عن-الطبيب" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\تعبير-عن-الطبيب.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ccc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\ccc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CONTENT_MANAGEMENT-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\CONTENT_MANAGEMENT-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="009_030_cam_camera_video_record-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\009_030_cam_camera_video_record-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDF_File-Add_2-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\PDF_File-Add_2-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="69882593-치과-사무실-치과-의사와-환자-소녀입니다-평면-디자인의-벡터-일러스트" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\69882593-치과-사무실-치과-의사와-환자-소녀입니다-평면-디자인의-벡터-일러스트.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x-11-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\x-11-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\1-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="051_user_profile_avatar-2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\051_user_profile_avatar-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue-area-symbol-brand-facebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\blue-area-symbol-brand-facebook.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="698902-icon-21-eye-hidden-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\698902-icon-21-eye-hidden-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_Business_Card-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\_Business_Card-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uturn__direction_signtransport-5124" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\uturn__direction_signtransport-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doutor-dentista-examinando-paciente_42515-317" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\doutor-dentista-examinando-paciente_42515-317.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uturn__direction_signtransport-5122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\uturn__direction_signtransport-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-157-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\icon-157-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tooth_2-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\Tooth_2-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="007_remove_trash-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\007_remove_trash-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="order-ecommerce-payment-bill-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\order-ecommerce-payment-bill-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGES\imageso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

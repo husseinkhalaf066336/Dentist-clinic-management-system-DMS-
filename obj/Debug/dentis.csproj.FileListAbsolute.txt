@@ -1,0 +1,107 @@
+c:\users\علي\documents\visual studio 2015\Projects\dentis\dentis\bin\Debug\dentis.exe.config
+c:\users\علي\documents\visual studio 2015\Projects\dentis\dentis\bin\Debug\dentis.exe
+c:\users\علي\documents\visual studio 2015\Projects\dentis\dentis\bin\Debug\dentis.pdb
+c:\users\علي\documents\visual studio 2015\Projects\dentis\dentis\obj\Debug\dentis.csprojResolveAssemblyReference.cache
+c:\users\علي\documents\visual studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Properties.Resources.resources
+c:\users\علي\documents\visual studio 2015\Projects\dentis\dentis\obj\Debug\dentis.csproj.GenerateResource.Cache
+c:\users\علي\documents\visual studio 2015\Projects\dentis\dentis\obj\Debug\dentis.exe
+c:\users\علي\documents\visual studio 2015\Projects\dentis\dentis\obj\Debug\dentis.pdb
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_LOGINcs.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_HOME.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_new_pateint.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_manegmet_patient.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_image_pat.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_new_state_.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_manegnent_state_cs.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_image_state_.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\stdole.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_RPT_Pateint.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_RPT_State.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Forme_bills1.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.form_choos_pat.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.form_choos_state.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_order_list.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.study.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.form_fin.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.form_datil_order1.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.form_user.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.form_updat_user.resources
+C:\Users\علي\Documents\Visual Studio 2015\Projects\dentis\dentis\obj\Debug\dentis.Form_server_config.resources
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\stdole.dll
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.csprojResolveAssemblyReference.cache
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Forme_bills1.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_HOME.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_LOGINcs.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_new_pateint.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_manegmet_patient.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_image_pat.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_new_state_.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_manegnent_state_cs.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_image_state_.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.form_choos_pat.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.form_choos_state.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_order_list.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.form_fin.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.form_datil_order1.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_server_config.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.form_updat_user.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.form_user.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Properties.Resources.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_RPT_Pateint.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.Form_RPT_State.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.study.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.csproj.GenerateResource.Cache
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\DCMS.exe.config
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\DCMS.exe.manifest
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\DCMS.application
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\DCMS.exe
+C:\Users\علي\Desktop\dentis\dentis\bin\Debug\DCMS.pdb
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\DCMS.exe.manifest
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\DCMS.application
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\DCMS.exe
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\DCMS.pdb
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.image_study.resources
+D:\my code\dentis\dentis\bin\Debug\DCMS.exe.config
+D:\my code\dentis\dentis\obj\Debug\DCMS.exe
+D:\my code\dentis\dentis\obj\Debug\DCMS.pdb
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.picteres_pat.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.image_sss.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.send_pateint.resources
+C:\Users\علي\Desktop\dentis\dentis\obj\Debug\dentis.doctor_notes.resources
