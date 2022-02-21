@@ -1,4 +1,33 @@
 # Dentist-clinic-management-system-DMS-
+## About:
+It is an administrative application for the management of the dentist's clinic that provides many services to employees in the dentist's clinic and doctors
+## Services for the patient:
+- It provides the employee with the ability to enter patient data and their details and store them in records for each patient
+- Provides the employee to schedule sessions for patients in an organized manner
+- The employee is presented with deleting and modifying the patient's data
+- Provides the employee with printing reports and patient statements
+- Provides the employee with the printing of special invoices for patients in detail
+- The employee is provided to send messages to patients to inform and remind them of the dates of their medical sessions
+- The employee is provided to print tables of medical cases and patients stored on the program in a coordinated and orderly manner
+- The employee is presented with the search for a specific patient among the patients
+- 
+## Services for the doctor:
+- He can log in and edit his profile
+- Add a list of available appointments so that the patient can choose an appointment from them
+- Writing medical reports and notes for patients
+- He can see a list of all patients and search within it
+## Services for the doctor admin:
+He inherits the doctor and certainly has all his permissions,and he can also add a new doctor
+
+## Features:
+- User can register with email & password
+- User can add personal info
+- User can search quickly
+- Provide security and confidentiality for files
+- Multilingual: Arabic and English
+- Speed in response
+- Send Notifications to Users
+- Attractive graphics
 screenshot:
 ![1](https://user-images.githubusercontent.com/88562339/155003018-d6b7b38b-04db-4feb-840b-474902277333.PNG)
 ![2](https://user-images.githubusercontent.com/88562339/155003044-90254422-efd2-42fe-a736-59a07a5d5e56.PNG)
